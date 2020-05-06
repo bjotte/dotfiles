@@ -6,3 +6,4 @@ set smooth
 set preserve
 set nowrap
 set tabsize 4
+set softwrap
