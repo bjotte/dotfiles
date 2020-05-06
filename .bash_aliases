@@ -7,7 +7,7 @@ alias nethack-online='ssh nethack@nethack.alt.org ; clear'
 alias tron-online='ssh sshtron.zachlatta.com ; clear'
 alias glog='git log --oneline --graph --color --all --decorate'
 alias ll='ls -alF'
-alias la='la -A'
+alias la='ls -A'
 alias l='ls -CF'
 ############################
 ## LIST OF CUSTOM ALIASES ##
@@ -27,6 +27,7 @@ alias hist='history'
 #-#-#-#-#-#
 #
 #SSH SECTION
+alias flitwick='ssh root@192.168.1.1'
 alias harry='ssh bjotte@192.168.1.15'
 alias fred='ssh root@192.168.1.8'
 alias george='ssh root@192.168.1.9'

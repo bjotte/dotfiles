@@ -1,0 +1,8 @@
+syntax "comments" ".*"
+color blue "^#*"
+set linenumbers
+set noconvert
+set smooth
+set preserve
+set nowrap
+set tabsize 4
