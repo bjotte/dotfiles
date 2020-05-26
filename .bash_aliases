@@ -36,6 +36,13 @@ alias hermione='ssh root@192.168.1.55'
 alias lily='ssh bjotte@192.168.1.25'
 alias charlie='ssh bjotte@192.168.1.26'
 #/SSH SECTION
+#
+#-#-#-#-#-#
+#
+#.SH SECTION
+alias raid-stat='/home/bjotte/./raid-stat.sh'
+alias btrs='/home/bjotte/./btrs.sh'
+alias fasttrack='/home/bjotte/./fasttrack.sh'
 
 ###########################
 ## END OF CUSTOM ALIASES ##
