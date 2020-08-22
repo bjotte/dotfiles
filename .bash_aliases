@@ -9,6 +9,7 @@ alias glog='git log --oneline --graph --color --all --decorate'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias fdsk="sudo fdisk -l | sed -e '/Disk \/dev\/loop/,+5d'"
 ############################
 ## LIST OF CUSTOM ALIASES ##
 ############################
