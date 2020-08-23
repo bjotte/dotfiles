@@ -44,7 +44,12 @@ alias charlie='ssh bjotte@192.168.1.26'
 alias raid-stat='/home/bjotte/./raid-stat.sh'
 alias btrs='/home/bjotte/./btrs.sh'
 alias fasttrack='/home/bjotte/./fasttrack.sh'
-
+#/.SH SECTION
+#
+#-#-#-#-#-#
+#
+#DOCKER SECTION
+alias dls='docker container ls'
 ###########################
 ## END OF CUSTOM ALIASES ##
 ###########################
