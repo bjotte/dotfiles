@@ -50,6 +50,18 @@ alias fasttrack='/home/bjotte/./fasttrack.sh'
 #
 #DOCKER SECTION
 alias dls='docker container ls'
+#/DOCKER SECTION
+#
+#-#-#-#-#-#
+#
+#GIT
+alias gs='git status'
+alias gpl='git pull'
+alias gpu='git push'
+alias gc='git commit'
+alias ga='git add'
+
+
 ###########################
 ## END OF CUSTOM ALIASES ##
 ###########################
