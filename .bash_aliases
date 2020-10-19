@@ -10,6 +10,7 @@ alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
 alias fdsk="sudo fdisk -l | sed -e '/Disk \/dev\/loop/,+5d'"
+alias mp3="youtube-dl -x --audio-format mp3"
 ############################
 ## LIST OF CUSTOM ALIASES ##
 ############################
