@@ -1,0 +1,16 @@
+[username]
+style_user = "green bold"
+style_root = "red bold"
+format = "user: [$user]($style) "
+disabled = false
+show_always = true
+
+[python]
+# Only use the `python3` binary to get the version.
+python_binary = "python3"
+
+[time]
+disabled = false
+format = '🕙[\[ $time \]]($style) '
+time_format = "%T"
+utc_time_offset = "1"
