@@ -25,7 +25,12 @@ style = "bold yellow"
 
 [[battery.display]]  # "bold red" style when capacity is between 0% and 10%
 threshold = 70
+style = "bold cyan"
+
+[[battery.display]]  # "bold yellow" style when capacity is between 10% and 30%
+threshold = 100
 style = "bold green"
+
 
 [battery]
 full_symbol = "🔋"
