@@ -15,6 +15,11 @@ format = '🕙[\[ $time \]]($style) '
 time_format = "%T"
 utc_time_offset = "1"
 
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "💀"
+
 [[battery.display]]  # "bold red" style when capacity is between 0% and 10%
 threshold = 10
 style = "bold red"
@@ -32,7 +37,3 @@ threshold = 100
 style = "bold green"
 
 
-[battery]
-full_symbol = "🔋"
-charging_symbol = "⚡️"
-discharging_symbol = "💀"
