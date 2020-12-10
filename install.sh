@@ -23,9 +23,23 @@ else
     echo "curl not installed, installing"
     sudo apt update && sudo apt -y install curl
 fi
-#starship
+# STARSHIP
 
-curl -fsSL https://starship.rs/install.sh | bash
-ln -s $PWD/starship.toml ~/.config/starship.toml
+# Starship install check
+if hash starship 2>/dev/null; then
+    echo "starship is installed"
+else
+    echo "Starship is not installed"
+    curl -fsSL https://starship.rs/install.sh | bash -s -- -y
+fi
+
+# Starship config check
+
+if test ! -L [~/.config/starship.toml]; then
+    echo "Starship config exists"
+else
+    echo "Starship config does not exist"
+    ln -s $PWD/starship.toml ~/.config/starship.toml
+fi
 
 echo "Installed.... FIN."
