@@ -22,7 +22,7 @@ if hash curl 2>/dev/null; then
 else
     echo "curl not installed, installing"
     sudo apt update && sudo apt -y install curl
-
+fi
 #starship
 
 curl -fsSL https://starship.rs/install.sh | bash
