@@ -10,6 +10,7 @@ for file in $(find . -maxdepth 1 -name ".*" -type f  -printf "%f\n" ); do
 done
 
 #starship
+curl -fsSL https://starship.rs/install.sh | bash
 ln -s $PWD/starship.toml ~/.config/starship.toml
 
 # Check if vim-addon installed, if not, install it automatically

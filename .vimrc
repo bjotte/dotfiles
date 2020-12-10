@@ -104,6 +104,7 @@ set t_Co=256
 
 " Enable syntax highlighting
 syntax enable
+set number relativenumber
 
 set nu
 set background=dark
