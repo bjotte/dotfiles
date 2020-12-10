@@ -25,6 +25,15 @@ else
 fi
 # STARSHIP
 
+# .config check
+
+if test ! -d [~/.config/]; then
+    echo ".config exists"
+else
+    echo ".config does not exist, creating"
+    mkdir ~/.config
+fi
+
 # Starship install check
 if hash starship 2>/dev/null; then
     echo "starship is installed"
