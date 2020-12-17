@@ -24,16 +24,16 @@ discharging_symbol = "💀"
 threshold = 10
 style = "bold red"
 
-[[battery.display]]  # "bold yellow" style when capacity is between 10% and 30%
+[[battery.display]]  # "bold yellow" style when capacity is between 10% and 50%
 threshold = 50
 style = "bold yellow"
 
-[[battery.display]]  # "bold red" style when capacity is between 0% and 10%
+[[battery.display]]  # "bold cyan" style when capacity is between 50% and 70%
 threshold = 70
 style = "bold cyan"
 
-[[battery.display]]  # "bold yellow" style when capacity is between 10% and 30%
-threshold = 100
+[[battery.display]]  # "bold green" style when capacity is between 70% and 101%
+threshold = 101
 style = "bold green"
 
 
