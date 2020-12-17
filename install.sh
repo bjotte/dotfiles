@@ -44,7 +44,7 @@ fi
 
 # Starship config check
 
-if test ! -L [~/.config/starship.toml]; then
+if test -L [~/.config/starship.toml]; then
     echo "Starship config exists"
 else
     echo "Starship config does not exist"
