@@ -25,8 +25,17 @@ ex ()
 }
 
 export EDITOR=vim
+#
+# Update aliases
+#
+alias upgradable='sudo apt update && sudo apt list --upgradable'
+alias upgrade='sudo apt upgrade'
 
 #alias pacman-update='sudo pacman-mirrors --geoip'
+
+#
+#/Update aliases
+#
 
 alias ls='ls'
 alias ll='ls -halF'
