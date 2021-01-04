@@ -36,7 +36,7 @@ alias upgrade='sudo apt upgrade'
 #
 #/Update aliases
 #
-alias lc='ls -halF | wc -l'
+alias lc='ls -A | wc -l'
 alias ls='ls'
 alias ll='ls -halF'
 # ls, the common ones I use a lot shortened for rapid fire usage
