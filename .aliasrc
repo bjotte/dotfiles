@@ -25,6 +25,12 @@ ex ()
 }
 
 export EDITOR=vim
+# YT-dl aliases
+alias ytdla='youtube-dl --download-archive dla.txt'
+alias mp3a='youtube-dl -x --audio-format mp3 --download-archive mp3a.txt'
+alias mp3='youtube-dl -x --audio-format mp3'
+
+
 #
 # Update aliases
 #
