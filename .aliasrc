@@ -116,7 +116,7 @@ alias ipa='ip -br -c a'
 alias ipaa='ip -c a'
 ###
 # fschk
-alias fstest='touch "$(date +"%w%d-%m-%Y-%H%M%S")"'
+alias fstest='touch "$(date +"%a%d-%m-%Y-%H%M%S")"'
 
 
 
