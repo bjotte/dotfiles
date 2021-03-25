@@ -26,10 +26,10 @@ ex ()
 
 export EDITOR=vim
 # YT-dl aliases
-alias ytdla='youtube-dl --download-archive dla.txt'
-alias mp3a='youtube-dl -x --audio-format mp3 --download-archive mp3a.txt'
-alias mp3='youtube-dl -x --audio-format mp3'
-
+alias ytdla='youtube-dl --verbose --download-archive dla.txt'
+alias mp3a='youtube-dl --verbose -x --audio-format mp3 --download-archive mp3a.txt'
+alias mp3='youtube-dl --verbose -x --audio-format mp3'
+alias guude='cd /mnt/BIG/Twitch\ RIP/Guude'
 
 #
 # Update aliases
@@ -114,6 +114,10 @@ alias gu=gitupdate
 # IP
 alias ipa='ip -br -c a'
 alias ipaa='ip -c a'
+###
+# fschk
+alias fstest='touch "$(date +"%d-%m-%Y-%H%M%S")"'
+
 
 
 #alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
