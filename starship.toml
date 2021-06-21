@@ -16,7 +16,7 @@ read_only_style = "red"
 [memory_usage]
 disabled = false
 threshold = -1
-format = "${ram} "
+format = "RAM: ${ram} "
 
 [python]
 # Only use the `python3` binary to get the version.
