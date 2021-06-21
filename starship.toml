@@ -1,7 +1,7 @@
 [username]
 style_user = "green bold"
 style_root = "red bold"
-format = "user: [$user]($style) "
+format = "user: [$user]($style) | "
 disabled = false
 show_always = true
 
@@ -12,11 +12,12 @@ truncation_symbol = "…/"
 home_symbol = "~"
 read_only = "🔒"
 read_only_style = "red"
+format = "[$path]($style)[$read_only]($read_only_style) | "
 
 [memory_usage]
 disabled = false
 threshold = -1
-format = "RAM: ${ram} "
+format = "| RAM: ${ram} | "
 
 [python]
 # Only use the `python3` binary to get the version.
