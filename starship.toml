@@ -13,6 +13,10 @@ home_symbol = "~"
 read_only = "🔒"
 read_only_style = "red"
 
+[memory_usage]
+disabled = false
+threshold = -1
+format = "${ram} "
 
 [python]
 # Only use the `python3` binary to get the version.
