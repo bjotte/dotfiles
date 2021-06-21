@@ -5,6 +5,15 @@ format = "user: [$user]($style) "
 disabled = false
 show_always = true
 
+[directory]
+truncation_length = 8
+truncate_to_repo = true
+truncation_symbol = "…/"
+home_symbol = "~"
+read_only = "🔒"
+read_only_style = "red"
+
+
 [python]
 # Only use the `python3` binary to get the version.
 python_binary = "python3"

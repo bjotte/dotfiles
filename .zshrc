@@ -73,7 +73,7 @@ git
 compleat
 colorize
 colored-man-pages
-autojump
+#autojump
 ubuntu
 )
 
