@@ -27,7 +27,7 @@ python_binary = "python3"
 disabled = false
 format = '🕙[\[ $time \]]($style) '
 time_format = "%T"
-utc_time_offset = "1"
+utc_time_offset = "local"
 
 [battery]
 full_symbol = "🔋"
