@@ -30,6 +30,10 @@ alias ytdla='youtube-dl --verbose --download-archive dla.txt'
 alias mp3a='youtube-dl --verbose -x --audio-format mp3 --download-archive mp3a.txt'
 alias mp3='youtube-dl --verbose -x --audio-format mp3'
 alias guude='cd /mnt/BIG/Twitch\ RIP/Guude'
+alias homelab='cd /mnt/BIG/YT\ RIP/Homelab'
+
+
+
 
 #
 # Update aliases
