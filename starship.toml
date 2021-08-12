@@ -5,6 +5,11 @@ format = "user: [$user]($style) | "
 disabled = false
 show_always = true
 
+[hostname]
+ssh_only = false
+format =  "on [$hostname](bold dimmed green) | "
+disabled = false
+
 [directory]
 truncation_length = 8
 truncate_to_repo = true
