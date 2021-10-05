@@ -28,10 +28,10 @@ fi
 # .config check
 
 if test ! -d [~/.config/]; then
-    echo ".config exists"
-else
     echo ".config does not exist, creating"
     mkdir ~/.config
+else
+    echo ".config exists"
 fi
 
 # Starship install check
