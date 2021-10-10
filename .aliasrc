@@ -33,6 +33,11 @@ alias guude='cd /mnt/BIG/Twitch\ RIP/Guude'
 alias homelab='cd /mnt/BIG/YT\ RIP/Homelab'
 
 
+#
+# cd alias
+#
+alias ..='cd ..'
+
 
 
 #
