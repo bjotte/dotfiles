@@ -26,7 +26,7 @@ ex ()
 
 export EDITOR=vim
 # YT-dl aliases
-alias ytdla='yt-dlp --verbose --download-archive dla.txt'
+alias ytdla='yt-dlp --verbose --remux-video mkv --concurrent-fragments 10 --download-archive dla.txt'
 alias mp3a='yt-dlp --verbose -x --audio-format mp3 --download-archive mp3a.txt'
 alias mp3='yt-dlp --verbose -x --audio-format mp3'
 alias guude='cd /mnt/BIG/Twitch\ RIP/Guude'

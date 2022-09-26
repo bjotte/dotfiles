@@ -132,3 +132,4 @@ if ! shopt -oq posix; then
 fi
 # Starship
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"
