@@ -24,7 +24,7 @@ ex ()
   fi
 }
 
-export EDITOR=vim
+export EDITOR=nvim
 # YT-dl aliases
 alias ytdla='yt-dlp --verbose --remux-video mkv --concurrent-fragments 10 --download-archive dla.txt'
 alias mp3a='yt-dlp --verbose -x --audio-format mp3 --download-archive mp3a.txt'
@@ -98,7 +98,7 @@ alias t='tail -f'
 #alias rm='rm -i'
 #alias cp='cp -i'
 #alias mv='mv -i'
-#alias vim='vim'
+alias vim='nvim'
 #alias vi='vim'
 #alias gds-start='sudo systemctl start openvpn-client@gds'
 #alias gds-stop='sudo systemctl stop openvpn-client@gds'
