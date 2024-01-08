@@ -33,6 +33,7 @@ alias guude='cd /mnt/BIG/Twitch\ RIP/Guude'
 alias homelab='cd /mnt/BIG/YT\ RIP/Homelab'
 alias finn='cd /mnt/BIG/Twitch\ RIP/F1nn5ter'
 alias ytu='sudo python3 -m pip install -U yt-dlp'
+alias ytr='cd /mnt/BIG/YT\ RIP/'
 #
 # cd alias
 #
