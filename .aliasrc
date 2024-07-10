@@ -129,6 +129,9 @@ alias ipaa='ip -c a'
 alias fstest='touch "$(date +"%A-%d-%m-%Y-%H%M%S")"'
 
 
+# Discord fix:
+alias dfix='sudo vim /opt/discord/resources/build_info.json'
+
 
 #alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
 #alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
