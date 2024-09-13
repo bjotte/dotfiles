@@ -34,6 +34,9 @@ format = '🕙[\[ $time \]]($style) '
 time_format = "%T"
 utc_time_offset = "local"
 
+[custom.uptime]
+command = 'uptime -p'
+
 [battery]
 full_symbol = "🔋"
 charging_symbol = "🔌"

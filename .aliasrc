@@ -34,6 +34,8 @@ alias homelab='cd /mnt/BIG/YT\ RIP/Homelab'
 alias finn='cd /mnt/BIG/Twitch\ RIP/F1nn5ter'
 alias ytu='sudo python3 -m pip install -U yt-dlp'
 alias ytr='cd /mnt/BIG/YT\ RIP/'
+alias yt-def='yt-dlp --concurrent-fragments 10 --remux-video mkv --download-archive dla.txt --write-description --write-thumbnail --write-url-link --write-info-json --verbose'
+alias cmd='./cmd.sh'
 #
 # cd alias
 #
