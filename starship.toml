@@ -34,9 +34,6 @@ format = '🕙[\[ $time \]]($style) '
 time_format = "%T"
 utc_time_offset = "local"
 
-[custom.uptime]
-command = 'uptime -p'
-
 [battery]
 full_symbol = "🔋"
 charging_symbol = "🔌"
@@ -61,3 +58,8 @@ style = "bold green"
 [git_branch]
 style = "bold purple"
 
+# ~/.config/starship.toml
+
+[env_var]
+variable = 'SHELL'
+default = 'unknown shell'
