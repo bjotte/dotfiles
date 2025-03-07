@@ -26,17 +26,17 @@ ex ()
 
 export EDITOR=nvim
 # YT-dl aliases
-alias ytdla='yt-dlp --verbose --remux-video mkv --concurrent-fragments 10 --download-archive dla.txt'
-alias mp3a='yt-dlp --verbose -x --audio-format mp3 --download-archive mp3a.txt'
-alias mp3='yt-dlp --verbose -x --audio-format mp3'
+alias ytdla='yt-dlp --verbose --remux-video mkv --concurrent-fragments 10 --download-archive dla.txt --cookies-from-browser brave'
+alias mp3a='yt-dlp --verbose -x --audio-format mp3 --download-archive mp3a.txt --cookies-from-browser brave'
+alias mp3='yt-dlp --verbose -x --audio-format mp3 --cookies-from-browser brave'
 alias guude='cd /mnt/BIG/Twitch\ RIP/Guude'
 alias homelab='cd /mnt/BIG/YT\ RIP/Homelab'
 alias finn='cd /mnt/BIG/Twitch\ RIP/F1nn5ter'
 alias ytu='sudo python3 -m pip install -U yt-dlp'
 alias ytr='cd /mnt/BIG/YT\ RIP/'
-alias yt-def='yt-dlp --concurrent-fragments 10 --remux-video mkv --download-archive dla.txt --write-description --write-thumbnail --write-url-link --write-info-json --verbose'
+alias yt-def='yt-dlp --concurrent-fragments 10 --remux-video mkv --download-archive dla.txt --write-description --write-thumbnail --write-url-link --write-info-json --verbose --cookies-from-browser brave'
 alias cmd='./cmd.sh'
-alias mp3chap='yt-dlp --verbose -x --audio-format mp3 --split-chapters --download-archive dla.txt'
+alias mp3chap='yt-dlp --verbose -x --audio-format mp3 --split-chapters --download-archive dla.txt --cookies-from-browser brave'
 #
 # cd alias
 #
