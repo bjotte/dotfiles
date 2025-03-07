@@ -114,3 +114,12 @@ source $ZSH/oh-my-zsh.sh
 
 # Starship:
 eval "$(starship init zsh)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/bjotte/.cache/lm-studio/bin"
+
+# added by me
+export PATH=${PATH}:/usr/bin/mangohud
+export PATH=${PATH}:/home/bjotte/.var/app
+export PATH=${PATH}:/usr/bin/gamescope
+

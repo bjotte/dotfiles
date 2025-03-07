@@ -18,3 +18,7 @@ export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
 export EDITOR=/usr/bin/vim
 
+# added by me for Heroic
+export PATH=${PATH}:/usr/bin/mangohud
+export PATH=${PATH}:/home/bjotte/.var/app
+export PATH=${PATH}:/usr/bin/gamescope
