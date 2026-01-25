@@ -141,3 +141,6 @@ alias dfix='sudo vim /opt/discord/resources/build_info.json'
 
 #alias lbrynet='/opt/LBRY/resources/static/daemon/lbrynet'
 #alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+#
+alias protontricks='flatpak run com.github.Matoking.protontricks'
+alias protontricks-launch='flatpak run --command=protontricks-launch com.github.Matoking.protontricks'

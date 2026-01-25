@@ -123,3 +123,5 @@ export PATH=${PATH}:/usr/bin/mangohud
 export PATH=${PATH}:/home/bjotte/.var/app
 export PATH=${PATH}:/usr/bin/gamescope
 
+# Added by ProtonUp-Qt on 01-04-2025 14:15:05
+if [ -d "/home/bjotte/stl/prefix" ]; then export PATH="$PATH:/home/bjotte/stl/prefix"; fi

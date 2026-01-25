@@ -136,3 +136,8 @@ eval "$(starship init bash)"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/bjotte/.cache/lm-studio/bin"
+
+# Added by ProtonUp-Qt on 01-04-2025 14:15:05
+if [ -d "/home/bjotte/stl/prefix" ]; then export PATH="$PATH:/home/bjotte/stl/prefix"; fi
+alias protontricks='flatpak run com.github.Matoking.protontricks'
+alias protontricks-launch='flatpak run --command=protontricks-launch com.github.Matoking.protontricks'
